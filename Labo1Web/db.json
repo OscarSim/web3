@@ -1,0 +1,100 @@
+{
+    "publication" :[
+        {
+            "id" : 1,
+            "titre" : "Ttitre numero Un",
+            "Date" : "24 juillet 2002",
+            "contenu" : "Lemurien",
+            "image" : "image/test/pull1.PNG"
+            
+        },
+        {
+            "id" : 2,
+            "titre" : "Ttitre numero Deux",
+            "Date" : "11 Mars 2005",
+            "contenu" : "Chien",
+            "image" : "image/test/cc.PNG"
+        },
+        {
+            "id" : 3,
+            "titre" : "Ttitre numero Trois",
+            "Date" : "22 Mars 2014",
+            "contenu" : "serpent",
+            "image" : "image/test/pull1.PNG"
+        },
+        {
+            "id" : 4,
+            "titre" : "Ttitre numero Quatre",
+            "Date" : "14 Janvier 2023",
+            "contenu" : "Cheval",
+            "image" : "image/test/cc.PNG"
+        },
+        {
+            "id" : 5,
+            "titre" : "Ttitre numero Cinq",
+            "Date" : "31 Aout 2010",
+            "contenu" : "chat",
+            "image" : "image/test/pull1.PNG"
+        },
+        {
+            "id" : 6,
+            "titre" : "Ttitre numero Six",
+            "Date" : "24 Decembre 2001",
+            "contenu" : "Abeille",
+            "image" : "image/test/cc.PNG"
+        },
+        {
+            "id" : 7,
+            "titre" : "Ttitre numero Sept",
+            "Date" : "21 Septembre 2005",
+            "contenu" : "Chenille",
+            "image" : "image/test/pull1.PNG"
+        }
+
+    ],                                 
+    "commentaire" :[
+        {
+            "id" : 1,
+            "publication_lier" :2 ,
+            "Date" : "11 Mars 2005",
+            "contenu" : "Chien"
+        },
+        {
+            "id" : 2,
+            "publication_lier": 1,
+            "Date" : "24 juillet 2002",
+            "contenu" : "Lemurien"
+        },
+        {
+            "id" : 3,
+            "publication_lier" :3 ,
+            "Date" : "22 Mars 2014",
+            "contenu" : "serpent"
+        },
+        {
+            "id" : 4,
+            "publication_lier" :4 ,
+            "Date" : "14 Janvier 2023",
+            "contenu" : "Cheval"
+        },
+        {
+            "id" : 5,
+            "publication_lier":1,
+            "Date" : "24 juillet 2002",
+            "contenu" :"Lemurien"
+        },
+        {
+            "id" : 6,
+            "publication_lier":5 ,
+            "Date" : "31 Aout 2010",
+            "contenu" : "chat"
+        },
+        {
+            "id" : 7,
+            "publication_lier" :2 ,
+            "Date" : "11 Mars 2005",
+            "contenu" : "Chien"
+        }
+
+    ]       
+}
