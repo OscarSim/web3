@@ -1,0 +1,118 @@
+{
+  "publication": [
+    {
+      "titre": "Test",
+      "auteur": "Coco l qsti",
+      "image": "https://www.pokepedia.fr/images/thumb/9/9b/Aspicot-RFVF.png/250px-Aspicot-RFVF.png",
+      "contenu": "jkhk",
+      "date": "22/03/2023",
+      "id": 8
+    },
+    {
+      "titre": "khk,h",
+      "auteur": "hkkh",
+      "image": "https://feelgoodfoodie.net/wp-content/uploads/2022/07/Baked-Chicken-Nuggets-12.jpg",
+      "contenu": "jkhk",
+      "date": "23/03/2023",
+      "id": 9
+    },
+    {
+      "titre": "VeloViolet",
+      "auteur": "dfjdl",
+      "image": "https://www.pokepedia.fr/images/thumb/9/9b/Aspicot-RFVF.png/250px-Aspicot-RFVF.png",
+      "contenu": "velo",
+      "date": "23/03/2023",
+      "id": 10
+    },
+    {
+      "titre": "VeloViolet",
+      "auteur": "dfjdl",
+      "image": "https://www.pokepedia.fr/images/thumb/9/9b/Aspicot-RFVF.png/250px-Aspicot-RFVF.png",
+      "contenu": "velo",
+      "date": "23/03/2023",
+      "id": 11
+    },
+    {
+      "titre": "JKJK",
+      "auteur": "KJKJ",
+      "image": "https://www.pokepedia.fr/images/thumb/9/9b/Aspicot-RFVF.png/250px-Aspicot-RFVF.png",
+      "contenu": "JKJ",
+      "date": "23/03/2023",
+      "id": 12
+    }
+  ],
+  "commentaire": [
+    {
+      "id": 1,
+      "publication_lier": 7,
+      "Date": "11 Mars 2005",
+      "contenu": "Chien"
+    },
+    {
+      "id": 2,
+      "publication_lier": 7,
+      "Date": "24 juillet 2002",
+      "contenu": "Lemurien"
+    },
+    {
+      "id": 3,
+      "publication_lier": 7,
+      "Date": "22 Mars 2014",
+      "contenu": "serpent"
+    },
+    {
+      "id": 4,
+      "publication_lier": 4,
+      "Date": "14 Janvier 2023",
+      "contenu": "Cheval"
+    },
+    {
+      "id": 5,
+      "publication_lier": 11,
+      "Date": "24 juillet 2002",
+      "contenu": "Lemurien"
+    },
+    {
+      "id": 6,
+      "publication_lier": 5,
+      "Date": "31 Aout 2010",
+      "contenu": "chat"
+    },
+    {
+      "id": 7,
+      "publication_lier": 11,
+      "Date": "11 Mars 2005",
+      "contenu": "Chien"
+    },
+    {
+      "publication_lier": 1,
+      "date": "23/03/2023",
+      "contenu": "bonjour",
+      "id": 8
+    },
+    {
+      "publication_lier": 8,
+      "date": "30/03/2023",
+      "contenu": "salut\n",
+      "id": 9
+    },
+    {
+      "publication_lier": 8,
+      "date": "30/03/2023",
+      "contenu": "coucou\n",
+      "id": 10
+    },
+    {
+      "publication_lier": 11,
+      "date": "30/03/2023",
+      "contenu": "oui",
+      "id": 11
+    },
+    {
+      "publication_lier": 8,
+      "date": "30/03/2023",
+      "contenu": "coucoullll",
+      "id": 12
+    }
+  ]
+}

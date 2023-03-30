@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="../CSS/mycss.css">
+    <title>Document</title>
+    <style>
+        @media (max-width: 767px) {
+          .hidden-mobile {
+            display: none;
+          }
+        }
+      </style>
+
+</head>
+    <body>
+        <div id="root"></div>
+            <div class="row marge middle">
+                <form class="d-flex col-xl-8 col-sm-10 ms-4" >
+                    <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <p class="col-1 ">Trier par:</p>
+                <div class="dropdown col-2 ">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">select :ㅤㅤㅤㅤ</button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item">opt1</a></li>
+                    <li><a class="dropdown-item">opt2 </a></li>
+                    <li><a class="dropdown-item">opt3</a></li>
+                    </ul>
+                </div>
+            </div> 
+            <div class="row ms-3 my-4" id="publicationAuto">
+                
+            </div>
+        <div id="ListBlog"></div>
+        <div id="footer"></div>
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>       
+        <script src="../src/HeaderJs.js" type="text/babel"></script>  
+        <script src="../src/FooterJs.js" type="text/babel"></script>        
+        <script src="../src/blogDeCARD.JS " type="text/babel"></script>
+        <script src="../src/BloglIst.js" type="text/babel"></script>
+        <script src="../src/index.js"  type="text/babel"></script>
+    </body> 
+</html>

@@ -1,0 +1,47 @@
+@import url("https:///fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https:///fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+header {
+  background-color: #222831;
+  font-family: one;
+  color: #EEEEEE;
+}
+
+body {
+  background-color: #393E46;
+  font-family: one;
+  color: #EEEEEE;
+}
+
+footer {
+  background-color: #00ADB5;
+}
+
+.card {
+  font-family: dos;
+  color: #222831;
+}
+
+.button {
+  color: #00ADB5;
+}
+.middle{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.marge{
+  margin: 10px;
+}
+
+h1 h2 h3 h4{
+  font-family: "Lora", serif;
+}
+
+p{
+  font-family: "Open-Sans",serif;
+}
+
+
+/*# sourceMappingURL=mycss.css.map */
